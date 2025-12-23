@@ -59,3 +59,41 @@ Status: Open
 
 
 ---
+
+
+BR-02 – Geçersiz E-posta Formatı Kabul Ediliyor
+
+Özet:  
+İletişim formunda e-posta alanına geçersiz formatta veri girilmesine rağmen
+form başarıyla gönderilmektedir.
+
+Ortam:  
+- Uygulama: İletişim Formu Demo  
+- URL: https://onurken.github.io/manual-testing-saucedemo/  
+- Tarayıcı: Google Chrome  
+- İşletim Sistemi: Windows 10  
+
+Ön Koşul:  
+Kullanıcı iletişim formu sayfasına erişmiş olmalıdır.
+
+Tekrar Adımları:
+1. İletişim formu sayfası açılır  
+2. Ad Soyad alanı doldurulur  
+3. E-posta alanına geçersiz formatta veri girilir (örn: abc123)  
+4. Mesaj alanı doldurulur  
+5. Gönder butonuna tıklanır  
+
+Beklenen Sonuç:  
+Sistem geçersiz e-posta formatını kabul etmemeli ve
+kullanıcıya uygun bir hata mesajı göstermelidir.
+
+Gerçekleşen Sonuç:  
+Geçersiz e-posta formatına rağmen
+“Form başarıyla gönderildi” mesajı gösterilmektedir.
+
+Öncelik: 
+-Orta
+
+Ciddiyet:
+-Orta
+
