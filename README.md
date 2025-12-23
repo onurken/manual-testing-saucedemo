@@ -30,6 +30,10 @@ Tools Used
 Notes
 This project reflects junior-level manual testing skills and learning progress.
 
+Issue Tracking
+Bug reports are also documented using GitHub Issues to simulate real-world QA workflows.
+
+
 Author 
 Onurcan Güzel
 Junior Software Tester
