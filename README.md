@@ -49,7 +49,7 @@ demo bir İletişim Formu web uygulamasını manuel olarak test ettim.
 
 Çalışma kapsamında:
 - Test senaryoları ve test case’ler yazılmıştır
-- 2 adet fonksiyonel hata tespit edilmiştir
+- 1 adet fonksiyonel hata tespit edilmiştir
 - Hatalar bug raporu formatında dokümante edilmiştir
 
 Test edilen alanlar:
