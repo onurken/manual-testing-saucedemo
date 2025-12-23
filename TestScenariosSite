@@ -1,0 +1,47 @@
+TS-01 – Bos Alanlarla Form Gonderme kontrolu
+
+Amac:  
+İletişim formunda zorunlu alanlar boş bırakıldığında forumun gönderilmemesi 
+gerektiğini doğrulamak
+
+Ön Koşul:  
+Kullanıcı iletişim formu sayfasına erişmiş olmalıdır.
+
+**Test Adımları:**
+1. İletişim formu sayfasını aç
+2. Ad Soyad alanını boş bırak
+3. E-posta alanını boş bırak
+4. Mesaj alanını boş bırak
+5. Gönder butonuna tıkla
+
+Beklenen Sonuç:  
+Form gönderilmemeli ve kullanıcıya uyarı mesajı gösterilmelidir.
+
+Gerçekleşen Sonuç:  
+Form boş alanlarla gönderilebilmekte ve
+"Form başarıyla gönderildi" mesajı gösterilmektedir.
+
+
+TS-02 - Geçersiz e-posta Formatı Kabul Edilmemelidir
+
+Amac:
+İletişim formunda e-postayı uygun format ile girmediğinde hata mesajı verdiğini doğrulamak
+
+Ön Koşul:
+Kullanıcı iletişim formu sayfasına erişmiş olmalıdır ve formu doldurmalıdır.
+
+Test Adımları:
+1. İletişim formu sayfasını a.
+2. Ad soyad ve e-posta alanını doldur
+3. E-postayı uygun formatta yazma
+4. Gönder butonuna tıkla
+
+Bkelenen sonuç:
+E-postayı kabul etmemeli ve hata mesajı vermelidir.
+
+Gerçekleşen sonuç:
+E-posta uygun formatta olmamasına rağmen "Form başarıyla gönderildi" mesajı gösterilmektedir.
+
+
+
+
